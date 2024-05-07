@@ -1,3 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: #001e3a36;
+    padding: 2px;
+    color: white;
+}
+
+h1{
+    margin: 16px;
+    padding: 2px;
+}
+
+ul{
+    list-style: none;
+    margin: 22px;
+}
+
+section{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+}
 
 h3 {
     color: #0a2121; 
@@ -5,15 +32,8 @@ h3 {
 }
 
 
-h1{
-    background-color: #fff;
-    border: 1px solid #000;
-    margin: 10px;
-    padding: 2px;
-}
 
-section{
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #000;
+ul li{
+    display: inline;
+    margin: 4px;
 }
