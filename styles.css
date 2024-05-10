@@ -34,6 +34,7 @@ ul li{
 
 img{
     margin: 12px;
+    border-radius: 25px;
 }
 section{
     padding: 10px;
@@ -59,4 +60,19 @@ ol li{
 }
 
 
+/* ------------Projects Page-------------- */
 
+table,th,td{
+    border:1px solid #ccc;
+    /* border-collapse:collapse; */
+    border-radius: 4px;
+}
+td{
+    text-align: left;
+    padding: 8px;
+    background-color: rgba(40, 122, 122, 0.065);
+}
+
+th{
+    padding: 4px;
+}
